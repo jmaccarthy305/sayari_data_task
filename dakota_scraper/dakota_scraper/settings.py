@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for huh project
+# Scrapy settings for dakota_scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,17 +9,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'huh'
+BOT_NAME = 'dakota_scraper'
 
-SPIDER_MODULES = ['huh.spiders']
-NEWSPIDER_MODULE = 'huh.spiders'
+SPIDER_MODULES = ['dakota_scraper.spiders']
+NEWSPIDER_MODULE = 'dakota_scraper.spiders'
 
 SPLASH_URL = 'http://192.168.59.103:8050'
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'huh (+http://www.yourdomain.com)'
+#USER_AGENT = 'dakota_scraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -70,7 +70,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'huh.pipelines.HuhPipeline': 300,
+#    'dakota_scraper.pipelines.HuhPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

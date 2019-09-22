@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4e11a0b-faeb-49c3-9a7c-548e641a0eb4" name="Default Changelist" comment="" />
+    <list default="true" id="a4e11a0b-faeb-49c3-9a7c-548e641a0eb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/spiders/items.json" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/spiders/items.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/spiders/nd_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/spiders/nd_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huh/huh/spiders/tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/huh/dakota_scraper/spiders/tutorial.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +27,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QtEmvmHr65YRQCZCiwCB1dAPkv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -95,11 +112,22 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/huh/huh/spiders/nd_spider.py</url>
+          <url>file://$PROJECT_DIR$/huh/dakota_scraper/spiders/nd_spider.py</url>
           <line>25</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
